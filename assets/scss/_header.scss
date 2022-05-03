@@ -1,0 +1,28 @@
+header{
+    position: sticky;
+    top: 0px;
+    bottom: 20px;
+    background-color: #fff;
+    z-index: 1;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+            a{
+                color: $text-clr !important;
+            } 
+        .form{
+            input[type=submit]{
+                background: $btn-clr;
+                color: #fff;
+                padding: 8px 18px 8px 18px;
+                border: 1px $btn-clr;
+                border-radius: 4px;
+                &:hover{
+                    background-color: $hover-clr;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,119 @@
+#end{
+    padding: 60px;
+    
+    .row-newsletter{
+        padding: 20px;
+        background-color: $footer-clr;
+        text-align: center ;
+        width: 100%;
+    }
+    .newsletter{
+        h4{
+            color: $text-clr;
+        }
+    }
+    .news-button{
+        display: inline-block;
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        .name{
+            border: 6px $border-clr;
+            box-shadow: 6px $border-clr;
+            width: 400px;
+            height: 50px;
+        }
+        .form{
+            input[type=submit]{
+                background: $btn-clr;
+                color: #fff;
+                padding: 10px 20px 10px 20px;
+                border: 1px $btn-clr;
+                border-radius: 4px;
+                &:hover{
+                    background-color: $hover-clr;
+                }
+            }
+        }
+        
+    }
+    .footer-main{
+        padding: 40px;
+        background: #fff url(/assets/images/footer-bg.png) no-repeat right top;
+        background-size: contain;
+        .col-5{
+            .footer-Cras{
+                a{
+                    text-decoration: none;
+                    color: $text-clr;
+                    h2{
+                        display: inline-block;
+                    }
+                    img{
+                        width: 28px;
+                    }
+                }
+            }
+            .icons-link{
+                a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: $icons-clr;
+                    margin: 5px;
+                    &:hover{
+                        color:$text-clr
+                    }
+                }
+            }
+        }
+        .col-2{
+            h4{
+                color: $text-clr;
+                padding: 10px;
+                font-size: 15px;
+            }
+            ul{
+                li{
+                   list-style: none;
+                   padding: 5px 0px;
+                   i{
+                       color: $arrow-clr;
+                       font-size: 11px;
+                   }
+                   a{
+                       font-size: 13px;
+                       font-weight: 400;
+                       color: $a-clr;
+                       text-decoration: none;
+                   }
+                }
+            }
+        }
+        .col-3{
+            
+            h4{
+                color: $text-clr;
+                padding: 10px;
+                font-size: 15px;
+                padding-left: 0px;
+            }
+            p{
+                color: $title-clr;
+                font-size: 15px ;
+            }
+        }
+    }
+    .copy-end{
+        display: inline-block;
+        text-align: center;
+        padding: 30px;
+        background-color: $footer-clr ;
+        font-size: 14px;
+        color: $text-clr;
+        .right{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
